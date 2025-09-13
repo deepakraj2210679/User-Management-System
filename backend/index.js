@@ -22,4 +22,5 @@ app.get("/hi",(req,res)=>{
 app.listen(3000,()=>{
     console.log("The application is running in the port 3000")
 })
-app.use("/v1",route)
+app.use("/v1",route);
+

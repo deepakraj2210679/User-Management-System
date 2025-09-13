@@ -1,5 +1,5 @@
 import express from 'express'
-import {Create,getAll,getuserById,updatauser,deleteuser} from "../controller/userController.js"
+import { Create,getAll,getuserById,updatauser,deleteuser } from '../controller/userController.js'
 
 import { createAccount,login,logout } from '../controller/authController.js'
 

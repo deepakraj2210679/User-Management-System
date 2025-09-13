@@ -2,7 +2,7 @@ import {useContext, useState} from 'react'
 import { useNavigate } from "react-router-dom"
 import { useAuth } from './authprovider.jsx';
 
-const LoginPage=()=>{
+const LoginPage=()=>{       
 
 
 const Navigate=useNavigate();

@@ -59,8 +59,6 @@ const login=async(req,res)=>{
         //creating the auth token for the each user
         const token=jwt.sign({id:checkUserExit._id},"demo",{expiresIn:'30d'})
         return res.json({
-            _id:checkUserExit._id,
-            name:checkUserExit.name,
             email:checkUserExit.email,
             password:checkUserExit.password,
             token:token
